@@ -1,11 +1,8 @@
 # CausalContrastStudy
-Are doctors underprescribing contrast agent medicine? Causal simulation.  
+Are doctors underprescribing contrast agent medicine? Via Causal (target trial, AIPW) simulation.  
 
+the main code is in study.ipynb, the code in the other two notebooks can be added at last-cell in study but for different purposes so I put them aside. Code is pretty short and readable!
 
-study im running, not finished yet though 
-
-(draft presentation: https://docs.google.com/presentation/d/15lN4BWD2b8YQgEl87QLMGVR64kGHFK9sJboBBdy4KTQ/edit?usp=sharing) its hastily made but it works 
-
-ill add more as things come
+the env+SQL/data connections is in NIH All of US (hosted on GCP). I've found that ~200GB ram + ~30cores is a sweet spot for a full run, but after Checkpt 2 you can use as low as 10GB RAM easily. 
 
 bless ya 
